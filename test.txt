@@ -1,0 +1,16 @@
+Test Case 1:
+Commands: `pwd`, `cd /`
+Should correctly display current working directory, changing directories, and toggling between directories
+
+Test Case 2:
+Commands: `ls`, `echo Hello World`, `ls *.txt`
+Should be listing directory contents, echoing text, and listing all `.txt` files
+
+Test Case 3:
+Commands: `echo "Hello" > hello.txt`, `cat hello.txt`, `cat < hello.txt`
+Should create `hello.txt` with content "Hello", displaying file content, and filtering output to show only `hello.txt`
+
+Test Case 4:
+Commands: `cd error`, `error`
+Error messages for both non-existent directory change and command execution.
+
