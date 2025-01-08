@@ -1,0 +1,32 @@
+MyShell (mysh)
+
+
+A custom POSIX-compliant shell implementation supporting both interactive and batch processing modes.
+Features
+
+
+Core Functionality
+
+Interactive command-line interface
+Batch mode for script execution
+POSIX-compliant stream I/O operations
+Built-in command support
+Process creation and management
+Environment variable handling
+
+
+Advanced Features
+
+Input/Output redirection (>, <, >>)
+Pipeline support for command chaining (|)
+Wildcard pattern matching (*, ?)
+Conditional command execution (&&, ||)
+Background process execution (&)
+
+
+Getting Started
+Prerequisites
+
+GCC or compatible C compiler
+POSIX-compliant operating system
+Make build system
